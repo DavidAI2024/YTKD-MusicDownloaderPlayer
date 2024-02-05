@@ -69,6 +69,7 @@
   - Users can exit the program by selecting the corresponding option in the menu.
 
 > ## <img src="https://s13.gifyu.com/images/SC4KY.gif" width="45px" /> Dependencies
+
 | Dependency | Description                                                                                                   |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | yt_dlp     | A powerful and flexible library for downloading videos and audio from YouTube.                                |
@@ -76,6 +77,7 @@
 | pydub      | A library for audio file manipulation. In YTKD-MusicDownloaderPlayer, it is used to load and get information about song durations. |
 | kitty      | An advanced terminal emulator that supports direct image display. Used by YTKD-MusicDownloaderPlayer to show animated GIFs.         |
 | mpg123     | A fast, free, and high-quality command-line MP3 player. Used by YTKD-MusicDownloaderPlayer for song playback.                      |
+| ImageMagick | A powerful software suite for image editing and conversion. Used by YTKD-MusicDownloaderPlayer, alongside mpg123, to enhance functionality. |
 
 
 
