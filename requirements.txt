@@ -1,0 +1,4 @@
+subprocess
+yt-dlp
+rich
+pydub
