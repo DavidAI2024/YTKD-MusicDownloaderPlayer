@@ -70,15 +70,14 @@
 
 > ## <img src="https://s13.gifyu.com/images/SC4KY.gif" width="45px" /> Dependencies
 
-| Dependency | Description                                                                                                   |
-|------------|---------------------------------------------------------------------------------------------------------------|
-| yt_dlp     | A powerful and flexible library for downloading videos and audio from YouTube.                                |
-| rich       | A library to enhance text formatting in the terminal, offering advanced colors and styles.                     |
-| pydub      | A library for audio file manipulation. In YTKD-MusicDownloaderPlayer, it is used to load and get information about song durations. |
-| kitty      | An advanced terminal emulator that supports direct image display. Used by YTKD-MusicDownloaderPlayer to show animated GIFs.         |
-| mpg123     | A fast, free, and high-quality command-line MP3 player. Used by YTKD-MusicDownloaderPlayer for song playback.                      |
-| ImageMagick | A powerful software suite for image editing and conversion. Used by YTKD-MusicDownloaderPlayer, alongside mpg123, to enhance functionality. |
-
+| Dependency   | Description                                                                                                   |
+|--------------|---------------------------------------------------------------------------------------------------------------|
+| [yt_dlp](https://github.com/yt-dlp/yt-dlp)       | A powerful and flexible library for downloading videos and audio from YouTube.                                |
+| [rich](https://github.com/willmcgugan/rich)       | A library to enhance text formatting in the terminal, offering advanced colors and styles.                     |
+| [pydub](https://github.com/jiaaro/pydub)          | A library for audio file manipulation. In YTKD-MusicDownloaderPlayer, it is used to load and get information about song durations. |
+| [kitty](https://github.com/kovidgoyal/kitty)      | An advanced terminal emulator that supports direct image display. Used by YTKD-MusicDownloaderPlayer to show animated GIFs.         |
+| [mpg123](https://www.mpg123.de/)                 | A fast, free, and high-quality command-line MP3 player. Used by YTKD-MusicDownloaderPlayer for song playback.                      |
+| [ImageMagick](https://imagemagick.org/)          | A powerful software suite for image editing and conversion. Used by YTKD-MusicDownloaderPlayer, alongside mpg123, to enhance functionality. |
 
 
 > To ensure an optimal experience with **YTKD-MusicDownloaderPlayer**, make sure to have the following dependencies installed in your Python environment. You can do this easily by running the following command:
