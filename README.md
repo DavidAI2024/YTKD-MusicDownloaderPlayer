@@ -14,10 +14,10 @@
 [![Audio Processing](https://img.shields.io/badge/pydub-latest-orange?logo=audio)](https://github.com/jiaaro/pydub)
 [![MP3 Playback](https://img.shields.io/badge/mpg123-latest-brightred?logo=music)](https://www.mpg123.de/)
 
-## <img src="https://i.ibb.co/z5yQMjZ/1000021078-removebg.png" width="28px" /> Introduction
+## <img src="https://s13.gifyu.com/images/SC4wb.gif" width="28px" /> Introduction
 > # Music Downloader and Player
 
-<img src="https://s13.gifyu.com/images/SC4Kh.gif" width="400">
+<img src="https://s13.gifyu.com/images/SC4w9.gif" width="400">
 
 > Welcome to the **YTKD-MusicDownloaderPlayer** script! This Python script is designed for downloading and playing your favorite songs. It utilizes the [yt_dlp](https://github.com/yt-dlp/yt-dlp), [Rich](https://github.com/willmcgugan/rich), and [PyDub](https://github.com/jiaaro/pydub) libraries to enhance the user experience.
 
