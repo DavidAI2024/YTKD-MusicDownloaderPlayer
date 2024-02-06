@@ -74,7 +74,7 @@
 > # <img src="https://i.ibb.co/G9FRzt5/musical-note.png" width="45px" /> Installation of _**mpg123**_ and _**ImageMagick**_
 >
 > ## Prerequisites
-> Make sure you have administrator privileges (sudo) to execute the installation operations.
+> _🔐 Make sure you have administrator privileges (sudo) to execute the installation operations._
 >
 > ## Installation
 >
