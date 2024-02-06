@@ -70,6 +70,37 @@
 
 > ## <img src="https://s13.gifyu.com/images/SC4KY.gif" width="45px" /> Dependencies
 
+> [!IMPORTANT]
+> # <img src="https://i.ibb.co/G9FRzt5/musical-note.png" width="45px" /> Installation of _**mpg123**_ and _**ImageMagick**_
+>
+> ## Prerequisites
+> Make sure you have administrator privileges (sudo) to execute the installation operations.
+>
+> ## Installation
+>
+> | Distribution   | Installation Commands                                          |
+> | -------------- | ------------------------------------------------------------- |
+> | Ubuntu/Debian  | `sudo apt-get update`<br>`sudo apt-get install mpg123`<br>`sudo apt-get install imagemagick` |
+> | CentOS/RHEL    | `sudo yum install epel-release`<br>`sudo yum install mpg123`<br>`sudo yum install ImageMagick` |
+> | Fedora         | `sudo dnf install mpg123`<br>`sudo dnf install ImageMagick` |
+> | Arch Linux      | `sudo pacman -S mpg123`<br>`sudo pacman -S imagemagick` |
+> | openSUSE       | `sudo zypper install mpg123`<br>`sudo zypper install ImageMagick` |
+> | Alpine Linux    | `sudo apk add mpg123`<br>`sudo apk add imagemagick` |
+>
+> ## Installation Verification
+> ```bash
+> mpg123 --version
+> convert --version
+> ```
+>
+> Ensure the above commands return information about the installed software to confirm a successful installation.
+
+> [!NOTE]
+> _**Commands may vary based on specific distribution versions. Be sure to refer to your distribution's official documentation for any differences.**_
+
+
+
+
 | Dependency   | Description                                                                                                   |
 |--------------|---------------------------------------------------------------------------------------------------------------|
 | [yt_dlp](https://github.com/yt-dlp/yt-dlp)       | A powerful and flexible library for downloading videos and audio from YouTube.                                |
