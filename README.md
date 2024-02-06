@@ -96,7 +96,7 @@
 > Ensure the above commands return information about the installed software to confirm a successful installation.
 
 > [!WARNING]
-> # 🎵 ffmpeg Requirement for yt_dlp 🚀
+> # 🎵 `ffmpeg` Requirement for `yt_dlp` 🚀
 > 
 > If you encounter the error `yt_dlp.utils.DownloadError: ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location`, ensure that 🎵 ffmpeg is installed on your system.
 > 
