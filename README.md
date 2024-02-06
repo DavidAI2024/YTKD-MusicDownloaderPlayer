@@ -95,6 +95,37 @@
 >
 > Ensure the above commands return information about the installed software to confirm a successful installation.
 
+> [!WARNING]
+> # 🎵 ffmpeg Requirement for yt_dlp 🚀
+> 
+> If you encounter the error `yt_dlp.utils.DownloadError: ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location`, ensure that 🎵 ffmpeg is installed on your system.
+> 
+> ## Installing 🎵 ffmpeg 🛠️
+> 
+> To install 🎵 ffmpeg, use the following commands based on your distribution:
+> 
+> | Distribution   | Installation Commands                        |
+> | -------------- | ------------------------------------------- |
+> | Ubuntu/Debian  | `sudo apt-get update`🔄<br>`sudo apt-get install ffmpeg`🎵 |
+> | CentOS/RHEL    | `sudo yum install epel-release`🔄<br>`sudo yum install ffmpeg`🎵 |
+> | Fedora         | `sudo dnf install ffmpeg`🎵 |
+> | Arch Linux      | `sudo pacman -S ffmpeg`🎵 |
+> | openSUSE       | `sudo zypper install ffmpeg`🎵 |
+> | Alpine Linux    | `sudo apk add ffmpeg`🎵 |
+> 
+> ## Verification of Installation 🔍
+> ```bash
+> 🎵 ffmpeg --version
+> ```
+> 
+> Ensure the above command returns information about the installed 🎵 ffmpeg version to prevent the mentioned error message.
+> 
+> 🚨 **Note:** _*This step is necessary to ensure the proper functioning of yt_dlp. Verify that 🎵 ffmpeg is installed or provide the path using the --ffmpeg-location option.*_ 🌟
+
+
+
+
+
 > [!NOTE]
 > _**Commands may vary based on specific distribution versions. Be sure to refer to your distribution's official documentation for any differences.**_
 
