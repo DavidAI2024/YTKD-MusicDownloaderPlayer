@@ -3,8 +3,7 @@
   <img width="450" src="https://i.ibb.co/z5yQMjZ/1000021078-removebg.png">
 </div>
 
-> [!IMPORTANT]
-> - [x] **This application is being finalized and will be released soon.**
+
 
 > [!TIP]
 > - The program utilizes the [yt_dlp](https://github.com/yt-dlp/yt-dlp), [rich](https://github.com/willmcgugan/rich), [pydub](https://github.com/jiaaro/pydub), and [kitty](https://github.com/kovidgoyal/kitty) libraries. Check their documentation for additional features and updates.
