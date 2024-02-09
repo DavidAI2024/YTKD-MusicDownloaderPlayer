@@ -45,7 +45,7 @@
   - Playback stops when the song ends.
 
 - [x] **Interactive Menu:**
-  - Presents an interactive menu to the user with options to download a song, listen to a song, or exit the program.
+  - Presents an interactive menu to the user with options to download a song, listen to a song, view popular songs, get lyrics, or exit the program.
   - Utilizes the `rich` library to display the menu with colors and styles.
   - Handles user choices through a while loop.
 
@@ -67,6 +67,44 @@
 
 - [x] **Program Exit:**
   - Users can exit the program by selecting the corresponding option in the menu.
+
+- [x] **View Popular Songs:**
+  - Users can explore a list of popular songs.
+  - Fetches data from [Last.fm API](https://www.last.fm/api) to display top tracks.
+
+- [x] **Get Lyrics of a Song:**
+  - Users can retrieve the lyrics of a specific song.
+  - Utilizes the [Genius API](https://docs.genius.com/) to fetch song lyrics.
+
+
+> [!TIP]
+> ███████████ API Keys Configuration ███████████
+> 
+>
+> This project uses various APIs to obtain specific functionalities. Before proceeding, make sure to obtain the necessary API keys from their respective sites and replace the following placeholders with your keys.
+> - **Last.fm API Key**: To get an API key from Last.fm, follow these steps:
+> 1. Visit the Last.fm website ([https://www.last.fm/api/account/create](https://www.last.fm/api/account/create)) and sign in or create an account.
+> 2. After logging in, go to the API console page ([https://www.last.fm/api/account/create](https://www.last.fm/api/account/create)).
+> 3. Create a new project to obtain your API key.
+> 4. Insert your API key in place of `Lastfmapi` in the following code:
+>
+>   ```python
+>  LASTFM_API_KEY = 'Lastfmapi'
+  > ```
+>
+> - **Genius API Key**: To get an API key from Genius, follow these steps:
+>  1. Visit the Genius website ([https://genius.com/api-clients](https://genius.com/api-clients)) and sign in or create an account.
+>  2. After logging in, create a new application to obtain your API key.
+ > 3. Insert your API key in place of `genius-api` in the following code:
+>
+ >   ```python
+  >  GENIUS_API_KEY = "genius-api"
+   > ```
+>
+> Make sure to keep your API keys confidential and not share them publicly. For better security management, consider using environment variables or other secure methods to handle keys in your project.
+
+
+
 
 > ## <img src="https://s13.gifyu.com/images/SC4KY.gif" width="45px" /> Dependencies
 
@@ -131,16 +169,16 @@
 
 
 
-| Dependency   | Description                                                                                                   |
-|--------------|---------------------------------------------------------------------------------------------------------------|
+| Dependency                               | Description                                                                                                   |
+|------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [yt_dlp](https://github.com/yt-dlp/yt-dlp)       | A powerful and flexible library for downloading videos and audio from YouTube. 🎥🎵                                 |
 | [rich](https://github.com/willmcgugan/rich)       | A library to enhance text formatting in the terminal, offering advanced colors and styles. 🌈✨                    |
-| [pydub](https://github.com/jiaaro/pydub)          | A library for audio file manipulation. In YTKD-MusicDownloaderPlayer, it is used to load and get information about song durations. 🎶  |
-| [kitty](https://github.com/kovidgoyal/kitty)      | An advanced terminal emulator that supports direct image display. Used by YTKD-MusicDownloaderPlayer to show animated GIFs. 🐱🖼️        |
-| [mpg123](https://www.mpg123.de/)                 | A fast, free, and high-quality command-line MP3 player. Used by YTKD-MusicDownloaderPlayer for song playback. 🎶🔊                      |
-| [ImageMagick](https://imagemagick.org/)          | A powerful software suite for image editing and conversion. Used by YTKD-MusicDownloaderPlayer, alongside mpg123, to enhance functionality. 🖼️✂️  |
-| [ffmpeg](https://ffmpeg.org/)                    | A cross-platform solution for handling multimedia data. Utilized by YTKD-MusicDownloaderPlayer for various audio and video processing tasks. 🎬🔧 |
-
+| [pydub](https://github.com/jiaaro/pydub)          | A library for audio file manipulation. In Console Music Player, it is used to load and get information about song durations. 🎶  |
+| [kitty](https://github.com/kovidgoyal/kitty)      | An advanced terminal emulator that supports direct image display. Used by Console Music Player to show animated GIFs. 🐱🖼️        |
+| [mpg123](https://www.mpg123.de/)                 | A fast, free, and high-quality command-line MP3 player. Used by Console Music Player for song playback. 🎶🔊                      |
+| [ImageMagick](https://imagemagick.org/)          | A powerful software suite for image editing and conversion. Used by Console Music Player, alongside mpg123, to enhance functionality. 🖼️✂️  |
+| [ffmpeg](https://ffmpeg.org/)                    | A cross-platform solution for handling multimedia data. Utilized by Console Music Player for various audio and video processing tasks. 🎬🔧 |
+| [lyricsgenius](https://pypi.org/project/lyricsgenius/)           | API for fetching song lyrics. Utilized by Console Music Player to retrieve lyrics of a specific song. 📜🎤 |
 > To ensure an optimal experience with **YTKD-MusicDownloaderPlayer**, make sure to have the following dependencies installed in your Python environment. You can do this easily by running the following command:
 
 ```bash
