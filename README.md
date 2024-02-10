@@ -1,7 +1,9 @@
-# <img src="https://i.ibb.co/z5yQMjZ/1000021078-removebg.png" width="28px" /> YTKD-MusicDownloaderPlayer
-<div align="center">
-  <img width="450" src="https://i.ibb.co/z5yQMjZ/1000021078-removebg.png">
-</div>
+<p align="center">
+  <img src="https://i.ibb.co/z5yQMjZ/1000021078-removebg.png" alt="248433934-7886223b-c1d1-4260-82aa-da5741f303bb">
+</p>
+
+# YTKD-MusicDownloaderPlayer
+
 
 
 
