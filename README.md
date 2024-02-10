@@ -184,6 +184,11 @@
 pip install -r requirements.txt
 ```
 
+**To launch the script:**
+```bash
+python3 YTDK.py
+```
+
 > [!TIP]
 > - **Internet Connection:** Ensure a stable internet connection for smooth song downloads from YouTube.
 > - **Audio Playback:** Make sure your system has audio playback capabilities, and the `mpg123` player is installed.
